@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reikka_s_hourly_wage"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextHourlyWage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/enter_hourly_wage"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize,TextSizeCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/reikka_s_hours_worked"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextHoursWorked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_hours_worked"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/calculate"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>

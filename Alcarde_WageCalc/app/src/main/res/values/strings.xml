@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Alcarde_WageCalc</string>
+    <string name="reikka_s_hourly_wage">Reikka\'s hourly wage</string>
+    <string name="enter_hourly_wage">enter_hourly_wage</string>
+    <string name="reikka_s_hours_worked">Reikka\'s hours worked</string>
+    <string name="enter_hours_worked">enter_hours_worked</string>
+    <string name="calculate">calculate</string>
+</resources>
